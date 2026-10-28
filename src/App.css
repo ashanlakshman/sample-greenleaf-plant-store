@@ -71,10 +71,12 @@ img {
 /* Header */
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
-  background: rgba(250, 249, 244, 0.96);
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(250, 249, 244, 0.98);
   border-bottom: 1px solid #eae9df;
   backdrop-filter: blur(12px);
 }
@@ -191,6 +193,10 @@ img {
   height: 1px;
   background: #8da17c;
   flex-shrink: 0;
+}
+
+.hero h1 {
+  color: #244a34;
 }
 
 .hero h1 > span,
