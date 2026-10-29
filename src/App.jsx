@@ -9,20 +9,19 @@ const plants = [
     image:
       "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=700&q=85",
   },
-  {
+    {
     name: "Peace Lily",
     category: "FLOWERING PLANTS",
     price: "Perfect for home",
-    image:
-      "https://images.unsplash.com/photo-1593691509543-c55fb32e5cee?auto=format&fit=crop&w=700&q=85",
+      image: "https://cdn1.interflora.in/f_auto%2Cq_auto%2Ct_prodl/products/p-potted-spathiphyllum-359155-m.jpg",
   },
   {
     name: "Snake Plant",
     category: "INDOOR PLANTS",
     price: "Low maintenance",
     image:
-      "https://images.unsplash.com/photo-1593482892290-f54927ae2c4e?auto=format&fit=crop&w=700&q=85",
-  },
+      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=700&q=85",
+  },,
 ];
 
 const benefits = [
@@ -328,7 +327,7 @@ function App() {
 
             <a
               className="button button-primary"
-              href="mailto:hello@greenleaf.example?subject=GreenLeaf%20Plant%20Enquiry"
+              href="mailto:greenleafplants@gmail.com?subject=GreenLeaf%20Plant%20Enquiry"
             >
               Say Hello <span>↗</span>
             </a>
@@ -337,8 +336,8 @@ function App() {
           <div className="contact-details">
             <div className="contact-item">
               <span className="contact-label">GET IN TOUCH</span>
-              <a href="mailto:hello@greenleaf.example">
-                hello@greenleaf.example
+              <a href="mailto:greenleafplats@gmail.com">
+                greenleafplats@gmail.com
               </a>
             </div>
 
